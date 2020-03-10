@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_layout"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="250dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:clickable="true"
+    android:onClick="playSong">
+
+    <ImageView
+        android:id="@+id/cover_img"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:padding="2dp"
+        android:tag = "1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_marginTop="2.5dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:padding="2dp"/>
+    <Button
+        android:id="@+id/control"
+        android:text="Play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.5dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+
+
+</LinearLayout>
